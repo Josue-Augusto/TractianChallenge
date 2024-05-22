@@ -10,7 +10,7 @@ class LoadAlertWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: context.heigth * 0.6,
+      height: context.heigth * 0.59,
       child: ListView.builder(
         itemCount: 8,
         itemBuilder: (context, index) {

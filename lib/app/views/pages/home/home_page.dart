@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                 if (state is AlertSuccessState) {
                   if (state.warning.isNotEmpty) {
                     return SizedBox(
-                      height: context.heigth * 0.6,
+                      height: context.heigth * 0.595,
                       child: ListView.builder(
                         itemCount: state.warning.length,
                         shrinkWrap: true,
