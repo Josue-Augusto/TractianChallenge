@@ -104,6 +104,7 @@ class _SensorPageState extends State<SensorPage> {
                       ElevatedButton(
                           style: buttonStyle(),
                           onPressed: () {
+                            searchController.text = '';
                             treeBloc.add(
                                 AllAssetsTreeEvent(company: widget.company));
                           },
